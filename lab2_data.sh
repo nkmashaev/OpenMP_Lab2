@@ -14,7 +14,7 @@ for opt_key in -O0 -O1 -O2 -O3; do
 	echo "Calculating consistent_integral..."
 	./tester.py ./bin/consistent_integral >> lab2_data.txt
 	echo "Calculation vector_sum..."
-	./tester.py ./bin/vector_sum >> lab2_data.txt
+	./tester.py ./bin/vect_sum >> lab2_data.txt
 	echo "Starting parallel tests"
 	for var in 1 2 3 4 5 6 7 8; do
 		export OMP_NUM_THREADS=$var

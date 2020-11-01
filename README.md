@@ -15,7 +15,7 @@
 ```Bash
 chmod +x lab2_builder.sh
 chmod +x lab2_data.sh
-chmox +x tester.py
+chmod +x tester.py
 ```
 
 ## Запуск программы
